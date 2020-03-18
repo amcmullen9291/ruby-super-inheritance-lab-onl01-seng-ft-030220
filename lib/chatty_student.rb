@@ -7,7 +7,12 @@ class ChattyStudent < Student
   
   def raise_hand
     super 
-    9.times {"Pick me!"}
+    i=1
+    while 1<= 10 do 
+    puts "Pick me!"
+    i+=1
+  end
+  end 
   end 
 
 end 
